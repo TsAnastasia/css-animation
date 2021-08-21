@@ -1,0 +1,15 @@
+.logo {
+  margin: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+}
+
+.logo:hover {
+  --color: var(--colorHover);
+  --colorShadow: var(--colorActive);
+  transform: scale(1.5);
+}

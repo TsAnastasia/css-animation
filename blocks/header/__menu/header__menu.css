@@ -1,0 +1,9 @@
+.header__menu {
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

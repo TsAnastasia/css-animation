@@ -1,0 +1,21 @@
+.simple-logos__google-letter {
+  margin-right: 5px;
+}
+
+.simple-logos__google-letter,
+.simple-logos__google-letter::after,
+.simple-logos__google-letter::before {
+  transition: border 0.75s linear;
+}
+
+.simple-logos__google-letter:last-child {
+  margin-right: 0;
+}
+
+.simple-logos__google-letter:nth-child(2) {
+  border-color: var(--red);
+}
+
+.simple-logos__google-letter:nth-child(3) {
+  border-color: var(--yellow);
+}

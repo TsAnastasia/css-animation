@@ -1,0 +1,48 @@
+@keyframes changeColor {
+  0%,
+  100% {
+    --blue: #3b7ded;
+    --green: #2ba24c;
+    --yellow: #f0b501;
+    --red: #e43e2b;
+  }
+  25% {
+    --blue: #e43e2b;
+    --green: #3b7ded;
+    --yellow: #2ba24c;
+    --red: #f0b501;
+  }
+  50% {
+    --blue: #f0b501;
+    --green: #e43e2b;
+    --yellow: #3b7ded;
+    --red: #2ba24c;
+  }
+  75% {
+    --blue: #2ba24c;
+    --green: #f0b501;
+    --yellow: #e43e2b;
+    --red: #3b7ded;
+  }
+}
+
+.simple-logos__google {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  --blue: #3b7ded;
+  --green: #2ba24c;
+  --yellow: #f0b501;
+  --red: #e43e2b;
+  transition: linear;
+  transform: scale(0.5);
+}
+
+.simple-logos__google:hover {
+  animation: changeColor 3s linear infinite;
+  transform: scale(0.7);
+}

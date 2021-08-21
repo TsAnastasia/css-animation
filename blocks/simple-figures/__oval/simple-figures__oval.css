@@ -1,0 +1,6 @@
+.simple-figures__oval {
+  width: 70px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--colorFigure);
+}

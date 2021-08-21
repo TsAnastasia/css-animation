@@ -1,0 +1,5 @@
+.simple-figures__rectangle {
+  width: 70px;
+  height: 40px;
+  background: var(--colorFigure);
+}

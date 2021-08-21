@@ -1,0 +1,15 @@
+.header {
+  padding-bottom: 5px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 100;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 2px 2px -2px var(--colorShadow);
+  transform: translate(-50%, 0);
+  background-color: var(--colorBackground);
+}

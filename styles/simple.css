@@ -1,0 +1,41 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/__content/page__content.css");
+@import url("../blocks/page/__section/page__section.css");
+@import url("../blocks/page/__section-title/page__section-title.css");
+
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/__text/logo__text.css");
+@import url("../blocks/logo/__text/_css/logo__text_css.css");
+@import url("../blocks/logo/__text/_project/logo__text_project.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__menu/header__menu.css");
+@import url("../blocks/header/__menu-item/header__menu-item.css");
+@import url("../blocks/header/__menu-item/_active/header__menu-item_active.css");
+@import url("../blocks/header/__menu-link/header__menu-link.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+
+@import url("../blocks/simple-figures/__list/simple-figures__list.css");
+@import url("../blocks/simple-figures/__item/simple-figures__item.css");
+@import url("../blocks/simple-figures/__square/simple-figures__square.css");
+@import url("../blocks/simple-figures/__rectangle/simple-figures__rectangle.css");
+@import url("../blocks/simple-figures/__circle/simple-figures__circle.css");
+@import url("../blocks/simple-figures/__oval/simple-figures__oval.css");
+@import url("../blocks/simple-figures/__triangle-up/simple-figures__triangle-up.css");
+@import url("../blocks/simple-figures/__triangle-down/simple-figures__triangle-down.css");
+@import url("../blocks/simple-figures/__triangle-left/simple-figures__triangle-left.css");
+@import url("../blocks/simple-figures/__parallelogram/simple-figures__parallelogram.css");
+@import url("../blocks/simple-figures/__trapezoid/simple-figures__trapezoid.css");
+
+@import url("../blocks/simple-logos/__google/simple-logos__google.css");
+@import url("../blocks/simple-logos/__google-letter/simple-logos__google-letter.css");
+@import url("../blocks/simple-logos/__google-letter/_first/simple-logos__google-letter_first.css");
+@import url("../blocks/simple-logos/__google-letter/_o/simple-logos__google-letter_o.css");
+@import url("../blocks/simple-logos/__google-letter/_g/simple-logos__google-letter_g.css");
+@import url("../blocks/simple-logos/__google-letter/_l/simple-logos__google-letter_l.css");
+@import url("../blocks/simple-logos/__google-letter/_e/simple-logos__google-letter_e.css");

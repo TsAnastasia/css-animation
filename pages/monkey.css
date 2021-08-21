@@ -1,0 +1,113 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 800px;
+  height: 300px;
+  border: red solid 1px;
+  background-color: #dcdcdc;
+  --animation: 3s linear infinite;
+}
+
+body *,
+body *::before,
+body *::after {
+  position: absolute;
+  content: "";
+}
+
+.lian {
+  top: 0;
+  left: 50%;
+  width: 50px;
+  height: 500px;
+  background: radial-gradient(
+      2px 7px ellipse at -30px 35px,
+      transparent 48px,
+      #211c1f 49px,
+      #1f972e 50px,
+      #1f972e 60px,
+      #211c1f 61px,
+      transparent 62px
+    ),
+    radial-gradient(
+        3px 5px ellipse at -10px 109px,
+        transparent 28px,
+        #211c1f 29px,
+        #1f972e 30px,
+        #1f972e 40px,
+        #211c1f 41px,
+        transparent 42px
+      )
+      100%/35px 150px,
+    radial-gradient(circle at 50% 0, #1f972e 8px, #211c1f 9px, transparent 10px)
+      4px 324px;
+  background-repeat: no-repeat;
+  transform-origin: top center;
+  transform: translate(0, -10px) rotate(42deg);
+}
+
+.lian-sheet-left {
+  top: 50px;
+  left: -20px;
+  width: 35px;
+  height: 20px;
+  background: #1f972e;
+  border-radius: 0 50px;
+  border: 1px solid #211c1f;
+  transform-origin: bottom right;
+  transform: rotate(-30deg);
+}
+
+.lian-sheet-right {
+  top: 30px;
+  left: 31px;
+  width: 35px;
+  height: 20px;
+  background: #1f972e;
+  border-radius: 0 50px;
+  border: 1px solid #211c1f;
+  transform-origin: top left;
+  transform: rotate(-50deg);
+}
+
+.lian::before {
+  content: "";
+  top: 250px;
+  left: 40px;
+  width: 35px;
+  height: 20px;
+  background: #1f972e;
+  border-radius: 0 50px;
+  border: 1px solid #211c1f;
+  transform-origin: top left;
+  transform: rotate(-75deg);
+}
+
+.lian::after {
+  content: "";
+  top: 115px;
+  left: 27px;
+  width: 35px;
+  height: 20px;
+  background: #1f972e;
+  border-radius: 0 50px;
+  border: 1px solid #211c1f;
+  transform-origin: top left;
+  transform: rotate(-15deg);
+}
+
+.monkey__body{
+  top: 262px; left: -35px;
+  width: 60px; height: 65px;
+  border-radius: 40%;
+  border: 1px solid #211c1f;
+  background: #a9835c;
+  transform: rotate(-20deg);
+}
+
+.monkey__body::after{/*tail*/
+}

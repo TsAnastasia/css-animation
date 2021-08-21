@@ -1,0 +1,267 @@
+@keyframes pigeonBody { /* тело голубя */
+	0%, 13% { transform: translate(0px, 0px) rotate(25deg); }
+	15% { transform: translate(4px, 0px) rotate(34deg); }
+	20%, 23% { transform: translate(-3px, 0px) rotate(18deg); }
+	29%, 100% { transform: translate(0px, 0px) rotate(25deg); }
+}
+
+@keyframes pigeonTail { /* хвост */
+  0%, 7%, 100% {transform: rotate(-64deg);}
+  9% {transform: rotate(-34deg);}
+  11% {transform: rotate(-88deg);}
+  13% {transform: rotate(-14deg);}
+  15% {transform: rotate(-74deg);}
+  18% {transform: rotate(-34deg);}
+  20% {transform: rotate(-54deg);}
+  15% {transform: rotate(-39deg);}
+  30%, 36% {transform: rotate(-84deg);}
+  37% {transform: rotate(-54deg);}
+}
+
+@keyframes pigeonHead { /* голова и шея */
+	0%, 11% { transform: translate(0px, 0px) rotate(-3deg); }
+	13% { transform: translate(0px, -5px) rotate(2deg); }
+	15% { transform: translate(1px, 19px) rotate(-17deg); }
+	20% { transform: translate(0px, -2px) rotate(0deg); }
+	23% { transform: translate(0px, -4px) rotate(1deg); }
+	28%, 100% { transform: translate(0px, 0px) rotate(-3deg); }
+}
+
+@keyframes pigeonFace { /* лицо */
+	0%, 18% { transform: translate(0px, 0px); }
+	20% { transform: translate(18px, -5px); }
+	21%, 36% { transform: translate(21px, -9px); }
+	37%, 72% { transform: translate(-7px, 2px); }
+	76%, 100% { transform: translate(0px, 0px); }
+}
+
+@keyframes pigeonFaceShadow { /* тень лица */
+	00%, 18% {
+    transform: rotate(0deg);
+	  background-position: -14px -5px;
+  }
+	20%, 36% {
+    transform: rotate(-20deg);
+		background-position: 18px -5px;
+  }
+	37%, 100% {
+    transform: rotate(0deg);
+		background-position: -14px -5px;
+  }
+}
+
+@keyframes pigeonNose {
+	0%, 18% { transform: translate(-6px, 2px) rotate(-45deg) rotateY(0deg); }
+	19%, 36% { transform: translate(15px, -5px) rotate(-5deg) rotateY(180deg); }
+	37%, 100% { transform: translate(-6px, 2px) rotate(-45deg) rotateY(0deg); }
+}
+
+@keyframes pigeonEyeLeft {
+	0%, 15% { background-position: 0px -5px, 0px 22px, 3px -3px; }
+	18% { background-position: 0px 0px, 0px 0px, 3px -3px; }
+	20% { background-position: 0px -22px, 0px 22px, 2px -3px; }
+	21%, 36% { background-position: 0px -22px, 0px 22px, 5px -3px; }
+	37%, 39% { background-position: 0px -22px, 0px 22px, -12px -2px; }
+	42%, 54% { background-position: 0px -22px, 0px 22px, 6px -4px; }
+	57%, 69% { background-position: 0px -22px, 0px 22px, -12px -2px; }
+	72% { background-position: 0px 0px, 0px 0px, -12px -2px; }
+	76%, 100% { background-position: 0px -5px, 0px 22px, 3px -3px; }
+
+	11% { transform: translate(0px, 0px) rotate(-23deg); }
+	13% { transform: translate(0px, 0px) rotate(-27deg); }
+	18% { transform: translate(0px, 0px) rotate(-15deg); }
+	19%, 36% { transform: translate(26px, -11px) rotate(-15deg); }
+	37%, 72% { transform: translate(0px, 0px) rotate(-15deg); }
+	76%, 100% { transform: translate(0px, 0px) rotate(-23deg); }
+
+}
+@keyframes pigeonEyeRight {
+	0%, 15% { background-position: 0px -5px, 0px 22px, 3px -3px; }
+	18% { background-position: 0px 0px, 0px 0px, 3px -3px; }
+	21%, 36% { background-position: 0px -22px, 0px 22px, 5px -3px; }
+	37%, 39% { background-position: 0px -22px, 0px 22px, -12px -2px; }
+	42%, 54% { background-position: 0px -22px, 0px 22px, 6px -4px; }
+	57%, 69% { background-position: 0px -22px, 0px 22px, -12px -2px; }
+	72% { background-position: 0px 0px, 0px 0px, -12px -2px; }
+	76%, 100% { background-position: 0px -5px, 0px 22px, 3px -3px; }
+
+	0%, 11% { transform: translate(0px, 0px) rotate(-23deg); }
+	13% { transform: translate(0px, 0px) rotate(-27deg); }
+	18% { transform: translate(0px, 0px) rotate(-15deg); }
+	19%, 36% { transform: translate(-26px, 11px) rotate(-15deg); }
+	37%, 72% { transform: translate(0px, 0px) rotate(-15deg); }
+	76%, 100% { transform: translate(0px, 0px) rotate(-22deg); }
+}
+
+@keyframes pigeonKnife { /* нож */
+	0%, 10% { transform: rotate(-129deg); }
+	11% { transform: rotate(-116deg); }
+	13% { transform: translate(5px, -1px) rotate(-115deg); }
+	23%, 72% { transform: translate(25px, -1px) rotate(-819deg);}
+	73% { transform: translate(25px, -1px) rotate(-94deg); }
+	83% { transform: translate(0px, 0px) rotate(579deg); }
+	87%, 100% { transform: translate(0px, 0px) rotate(593deg); }
+}
+
+@keyframes pigeonKnifeShine { /* блеск ножа */
+	0%, 10% { transform: scale(1); }
+	11%, 13% { transform: scale(0.9); }
+	22% { transform: scale(0.8); }
+	23%, 72% { transform: scale(0);}
+	73% { transform: scale(0.8); }
+	83% { transform: scale(0.9); }
+	87%, 100% { transform: scale(1); }
+}
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  width: 800px; height: 600px;
+  background-color: #dcdcdc;
+  --animation: 3s linear infinite;
+}
+
+body *, body *::before, body *::after {
+  position: absolute; content: "";
+}
+
+.pigeon {
+	top: 475px; left: 400px;
+}
+
+.pigeon::before { /* тень */
+  top: -10px; left: -100px;
+  width: 200px; height: 20px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+.pigeon__legs::before { /* задняя нога */
+  top: 1px; left: -15px;
+  width: 14px; height: 82px;
+  border-radius: 99em;
+  background: #e4b10b;
+  transform-origin: top center;
+  transform: rotate(-201deg);
+}
+
+.pigeon__legs::after { /* передняя нога */
+  top: 1px; left: 3px;
+  width: 14px; height: 82px;
+  border-radius: 99em;
+  background: #edbe27;
+  transform-origin: top center;
+  transform: rotate(-201deg);
+  z-index: 1;
+}
+
+.pigeon__body { /* тело */
+  top: -139px; left: -109px;
+  width: 175px; height: 87px;
+  transform: rotate(25deg);
+  animation: pigeonBody var(--animation);
+}
+
+.pigeon__body::before { /* хвост */
+  top: 0; right: 6px;
+  width: 57px; height: 57px;
+  border-radius: 0 7px 50px 0;
+  background: #383049;
+  transform-origin: top left;
+  transform: rotate(-64deg);
+  animation: pigeonTail var(--animation);
+}
+
+.pigeon__body::after {
+  width: 100%; height: 100%;
+  background: #5d7d82;
+  border-radius: 0 10px 50% 50% / 0 10px 90% 100%;
+}
+
+.pigeon__head { /* голова и шея */
+  top: -177px; left: 0px;
+  width: 114px; height: 193px;
+  border-radius: 0 0 0 8px;
+  background:
+    radial-gradient(circle, #5d7d82 71%, transparent 0%) 0px 0px / 55px 55px no-repeat,
+    linear-gradient(45deg, #5d7d82, #5d7d82) 0px 27px / 55px 170px no-repeat,
+    linear-gradient(69deg, #5d7d82 53%, transparent 54%) 54px 24px / 59px 173px no-repeat;
+  transform-origin: 0 177px;
+  transform: rotate(-3deg);
+  animation: pigeonHead var(--animation);
+}
+
+.pigeon__head::before { /* тень от носа */
+  top: 40px; left: 0px;
+  width: 59px; height: 70px;
+  background: radial-gradient(ellipse at 50% 50%, #372a3b 50%, transparent 0%) -14px -5px / 110% 100% no-repeat;
+  transform-origin: top center;
+  transform: rotate(0deg);
+  animation: pigeonFaceShadow var(--animation);
+}
+
+.pigeon__face { /* лицо */
+  animation: pigeonFace var(--animation);
+}
+
+.pigeon__face::before { /* левый глаз */
+  top: 33px; left: -12px;
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background:
+    linear-gradient(0deg, transparent 50%, #5d7d82 0%) no-repeat,
+    linear-gradient(0deg, #5d7d82 50%, transparent 0%) no-repeat,
+    radial-gradient(circle, #372a42 25%, transparent 26%) 3px -3px no-repeat, white;
+  transform: rotate(-22deg);
+  animation: pigeonEyeLeft var(--animation);
+}
+
+.pigeon__face::after { /* правый глаз */
+  top: 22px; left: 14px;
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background:
+    linear-gradient(0deg, transparent 50%, #5d7d82 0%) no-repeat,
+    linear-gradient(0deg, #5d7d82 50%, transparent 0%) no-repeat,
+    radial-gradient(circle, #372a42 25%, transparent 26%) 3px -3px no-repeat, white;
+  transform: rotate(-22deg);
+  z-index: 1;
+  animation: pigeonEyeRight var(--animation);
+}
+
+.pigeon__nose { /* нос */
+  top: 56px; left: 8px;
+  width: 33px; height: 25px;
+  border-radius: 25px 8px 10px 23px / 12px 6px 19px 13px;
+  background: #edbe27;
+  transform: rotate(-45deg);
+  animation: pigeonNose var(--animation);
+}
+
+.knife { /* нож */
+	top: 14px; left: -9px;
+  width: 156px; height: 23px;
+  border-radius: 4px 50% 4px 4px / 4px 18px 4px 4px;
+  background: 
+    linear-gradient(50deg, transparent 72%, white 73%, white 92%, transparent 93%), 
+    linear-gradient(90deg, #383049 38%, #91c0c6 0%);
+  transform-origin: 20px 11px;
+  transform: rotate(-129deg);
+	animation: pigeonKnife var(--animation);
+}
+
+.knife::before { /* рукоятка ножа */
+  top: -20px; left: 44px;
+  width: 15px; height: 63px;
+  border-radius: 99em;
+  background: #383049;
+}
+
+.knife::after { /* блеск ножа */
+  top: 12px; left: 148px;
+  width: 20px; height: 20px;
+  background:
+    radial-gradient(ellipse at 50% 50%, white 50%, transparent 0%) 50% 50% / 30px 10px no-repeat,
+    radial-gradient(ellipse at 50% 50%, white 50%, transparent 0%) 50% 50%/ 10px 30px no-repeat;
+  animation: pigeonKnifeShine var(--animation);
+}

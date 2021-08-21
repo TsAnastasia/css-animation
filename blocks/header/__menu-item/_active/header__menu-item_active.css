@@ -1,0 +1,17 @@
+.header__menu-item_active {
+  box-shadow: 0 0 2px var(--color);
+}
+
+.header__menu-item_active::before {
+  content: "";
+  margin: 0 2px;
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  bottom: 3px;
+  height: 1px;
+  width: calc(100% - 16px);
+  border-bottom: solid var(--colorActive) 1px;
+  transform: translate(-50%, 0);
+  transition: width 0.3s ease-in-out;
+}

@@ -1,0 +1,37 @@
+.simple-logos__google-letter_first {
+  position: relative;
+  width: 50px;
+  height: 70px;
+}
+
+.simple-logos__google-letter_first::before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 35px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-top: 10px solid var(--blue);
+  border-right: 10px solid var(--blue);
+  border-bottom: 10px solid var(--blue);
+  border-radius: 0 0 50px 0;
+}
+
+.simple-logos__google-letter_first::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 30px;
+  height: 50px;
+  border-width: 10px;
+  border-style: solid;
+  border-top-color: var(--red);
+  border-left-color: var(--yellow);
+  border-bottom-color: var(--green);
+  border-right-color: rgba(255, 255, 255, 0);
+  border-radius: 40px;
+}

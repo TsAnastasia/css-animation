@@ -1,0 +1,7 @@
+.simple-figures__triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid var(--colorFigure);
+}

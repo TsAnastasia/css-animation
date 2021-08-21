@@ -1,0 +1,6 @@
+.simple-figures__parallelogram {
+  width: 50px;
+  height: 40px;
+  background: var(--colorFigure);
+  transform: skew(-30deg);
+}
